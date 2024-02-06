@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{ margin:0; padding:0;}
+li{ list-style:none;}
+img{ border:none;}
+a{ text-decoration:none; color:#191919}
+.ul:after{ content:""; clear:both; height:0; display:block; visibility:hidden;}
+body, a {font-family: 'notokr-kr';font-weight:400; color: #191919;}
+input, button, select, textarea, label {font-family: 'notokr-kr';font-weight:400; outline: none;-webkit-tap-highlight-color : transparent;}
+button { cursor:pointer; outline:none; font-weight: 400; background: none; border: none;}
