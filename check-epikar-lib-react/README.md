@@ -1,6 +1,6 @@
 ## [Check Library version.React]()
 
-React 버전의 사내 Library 및 Common Code 작성진행 시, <b>확인용 프로젝트</b>.
+React 버전의 사내 Library 및 Common Code 작성진행 시 <b>확인용 프로젝트</b>.
 
 <br/>
 
@@ -20,27 +20,30 @@ react library project의 경우, rollup 번들러를 사용하고, webpack 번�
         $ npm run build           
         $ yarn link
 
-<br><br>
+<br>
 
 * <b>[진행]-[check-epikar-lib-react]</b> <br>
 
-    1. npm install
+    <b>1. npm install</b>
     
-          $ npm install
+            $ npm install
 
+    <br/>
 
-    2. library project link 연결 <br/>
+    <b>2. library project link 연결 </b> <br/>
     : library project를 확인할 수 있도록 연결한다. 
 
-        $ npm link epikar-lib-react
+            $ npm link epikar-lib-react
 
-        // $ npm link <project name>
+            // $ npm link <project name>
         
+    <br/>
 
-    3. 실행
-        $ npm start
+    <b>3. 실행 </b>
 
-    [!] library project code 변경 시, 실시간으로 변경내용 확인 
+            $ npm start
+
+    [!] library project code 변경 시, 실시간으로 변경내용 확인 <br/>
         library project 에서 build 하면, link로 연결된 프로젝트에서 재실행 하지 않아도 동기적으로 변경된 내용 반영됨. 
             
     
