@@ -7,10 +7,10 @@ export function Router() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/components/box" element={<ExampleCompnentsBoxPg />} />
-        <Route path="/components/button" element={<ExampleComponentsButtonPg />} />
-        <Route path="/components/form" element={<ExampleComponentsFormPg />} />
-        <Route path="/components/layout" element={<ExampleComponentsLayoutPg />} />
+        <Route path="/page/box" element={<ExampleCompnentsBoxPg />} />
+        <Route path="/page/button" element={<ExampleComponentsButtonPg />} />
+        <Route path="/page/form" element={<ExampleComponentsFormPg />} />
+        <Route path="/page/layout" element={<ExampleComponentsLayoutPg />} />
       </Routes>
     </BrowserRouter>
   );
