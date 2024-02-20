@@ -15,10 +15,10 @@ react library project의 경우, rollup 번들러를 사용하고, webpack 번�
 #### [사용 방법]() 
 ----
 * <b>[사전세팅]-[epikar-lib-react]</b> <br>
-    : library project(epikar-lib-react)에서 빌드 후, yarn link
+    : library project(epikar-lib-react)에서 빌드 후, npm link
 
         $ npm run build           
-        $ yarn link
+        $ npm link
 
 <br>
 
