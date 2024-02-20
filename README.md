@@ -21,11 +21,11 @@ React 버전의 사내 Library 및 Common Code.
         $ cd epikar-lib-react               // 접속    
     ```
     <br/>
-* <b>[check-epikar-lib-react]</b> <br/>
+* <b>[view-epikar-lib-react]</b> <br/>
     : epikar-lib-react project 작성 시, 변경내용을 동기적으로 확인하는 용도의 프로젝트 <br/>
         ( epikar-lib-react project link로 연결하여 동기적으로 변경내용 확인 )
     ```
-        $ cd check-epikar-lib-react         // 접속    
+        $ cd view-epikar-lib-react         // 접속    
     ```
 
 
@@ -51,7 +51,7 @@ React 버전의 사내 Library 및 Common Code.
 
 <br/>
 
-* <b>[check-epikar-lib-react]</b> <br/>
+* <b>[view-epikar-lib-react]</b> <br/>
 
         $ npm install
     
@@ -86,7 +86,7 @@ React 버전의 사내 Library 및 Common Code.
 
 <br/>
 
-* <b>[check-epikar-lib-react]</b> <br/>
+* <b>[view-epikar-lib-react]</b> <br/>
 
     1) link의 대상 연결 <br/>
     : 타 프로젝트의 코드/파일을 사용할 수 있도록 타 프로젝트를 연결한다. 
@@ -113,7 +113,7 @@ React 버전의 사내 Library 및 Common Code.
     1) [epikar-lib-react]프로젝트 코드수정 
     2) 재빌드(위 명령어)
     3) 동기적으로 변경내용 확인 가능. 
-        check-epikar-lib-react 프로젝트에서 재실행 하지 않아도 epikar-lib-react프로젝트에서 새로 빌드된 내용이 동기적으로 반영된다. 
+        view-epikar-lib-react 프로젝트에서 재실행 하지 않아도 epikar-lib-react프로젝트에서 새로 빌드된 내용이 동기적으로 반영된다. 
 
 <br/><br/>
 

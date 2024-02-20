@@ -1,4 +1,4 @@
-## [Check Library version.React]()
+## [View Library version.React]()
 
 React 버전의 사내 Library 및 Common Code 작성진행 시 <b>확인용 프로젝트</b>.
 
@@ -22,7 +22,7 @@ react library project의 경우, rollup 번들러를 사용하고, webpack 번�
 
 <br>
 
-* <b>[진행]-[check-epikar-lib-react]</b> <br>
+* <b>[진행]-[view-epikar-lib-react]</b> <br>
 
     <b>1. npm install</b>
     
