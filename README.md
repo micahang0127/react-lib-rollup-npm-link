@@ -52,7 +52,7 @@ React 버전의 사내 Library 및 Common Code.
 
 * <b>[view-epikar-lib-react]</b> <br/>
 
-        $ npm install           // package.json을 대상으로 node_modules설치
+        $ npm install           // package.json을 대상으로 node_modules 설치
     
 
 <br/><br/>
