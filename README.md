@@ -46,21 +46,20 @@ React 버전의 사내 Library 및 Common Code.
         $ npm install --legacy-peer-deps --D rollup-plugin-terser
         $ npm install 
 
-    [!] rollup-plugin-terser (build 시 코드파일 압축)로 인하여 
-    npm install --D rollup-plugin-terser 를 하게 되면 충돌 에러가 남. 
+    [!] rollup-plugin-terser(build시 코드파일 압축하는 라이브러리)로 인하여 npm install --D rollup-plugin-terser 를 하게 되면 충돌 에러가 남. 
 
 <br/>
 
 * <b>[view-epikar-lib-react]</b> <br/>
 
-        $ npm install
+        $ npm install           // package.json을 대상으로 node_modules설치
     
 
 <br/><br/>
 
 <b>2. link 연결(로컬)</b>  <br/>
 : npm link로 두 프로젝트를 연결한다. 이는 로컬에서만 실행된다. <br/>
-확인 후 연결한 link는 바로 삭제하기로 한다. 
+&nbsp;&nbsp;&nbsp;확인 후 연결한 link는 바로 삭제하기로 한다. 
 
 <br/>
 
@@ -75,8 +74,8 @@ React 버전의 사내 Library 및 Common Code.
 
     build 완료 후, 해당 프로젝트 root에 dist폴더가 생김.<br/>
     실제로 rollup -c --bundleConfigAsCjs의 명령문이 실행 됨.<br/>
-    "build": "rollup -c --bundleConfigAsCjs",  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-         // [package.json]
+    [package.json] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "build": "rollup -c --bundleConfigAsCjs"
+
 
     <br/>
 
@@ -94,6 +93,7 @@ React 버전의 사내 Library 및 Common Code.
             $ npm link epikar-lib-react
 
             // $ npm link <project name>
+            // 여기서 <project name>은 타 프로젝트의 package.json에 "name"에 있는 명이어야 함.
         
     
 
@@ -102,11 +102,11 @@ React 버전의 사내 Library 및 Common Code.
 #### [진행]() 
 ----
 
-* <b> 작업내용 지속적 확인 (동기화) <b/>   <br/>
+* <b> 작업내용 지속적 확인 (동기화) </b>   <br/>
 
     : library 프로젝트의 지속적인 변경 및 확인 시, link 연결로 동기적으로 내용을 확인 할 수 있다. <br/>
     (코드 수정 시마다 재실행 하지 않아도 변경내용 확인 가능.) <br/>
-    단, <b>재빌드</b>는 해주어야 한다. 
+    <b>단, 재빌드는 해주어야 한다.</b>
 
         $ npm run build
 

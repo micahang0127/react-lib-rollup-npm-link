@@ -24,8 +24,8 @@ React 버전의 사내 Library 및 Common Code
         $ npm install --legacy-peer-deps --D rollup-plugin-terser
         $ npm install 
 
-[!] rollup --D rollup-plugin-terser 를 하게-plugin-terser (build 시 코드파일 압축)로 인하여 
-npm install 되면 충돌 에러가 남. 
+[!] rollup-plugin-terser(build 시 코드파일 압축하는 라이브러리)로 인하여 
+npm install 되면(npm install --D rollup-plugin-terser) 충돌 에러가 남. 
 
 <br/><br/>
 

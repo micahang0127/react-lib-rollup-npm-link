@@ -7,7 +7,7 @@ React 버전의 사내 Library 및 Common Code 작성진행 시 <b>확인용 프
 #### [목적]() 
 ----
 react library project의 경우, rollup 번들러를 사용하고, webpack 번들러는 사용하지 않음(create-react-app도 미사용).  <br/>
-개발 진행 시 확인하는 방법으로 yarn link를 걸어 외부 프로젝트에서 연결 된 link로 실행 확인을 한다. 
+개발 진행 시 확인하는 방법으로 npm link를 걸어 외부 프로젝트에서 연결 된 link로 실행 확인을 한다. 
 
 <br/>
 
@@ -36,6 +36,7 @@ react library project의 경우, rollup 번들러를 사용하고, webpack 번�
             $ npm link epikar-lib-react
 
             // $ npm link <project name>
+            // 여기서 <project name>은 타 프로젝트의 package.json에 "name"에 있는 명이어야 함.
         
     <br/>
 
