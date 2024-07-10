@@ -1,3 +1,19 @@
+## [React.js + rollup + npm link]()
+
+React 버전의 사내 Library 및 Common Code를 <br/>
+외부에 새로운 프로젝트에서 import하여 사용할 수 있는 예제 프로젝트 <br/>
+<b>(단, 해당 프로젝트에서 Library 모듈을 몇개의 예제들로만 다룬다. )</b>
+
+    ```
+        * [React.js + rollup + npm link]의 조합
+          - React.js : library 모듈들이 정의 된 프로젝트
+          - rollup   : library프로젝트를 번들링 해 줄 번들러 (webpack대체)
+          - npm link : 외부 프로젝트에서 library프로젝트의 각 모듈들을 가져와(import) 사용할 수 있도록 해줌
+    
+    ```
+    
+
+
 ## [Library version.React]()
 
 React 버전의 사내 Library 및 Common Code.
